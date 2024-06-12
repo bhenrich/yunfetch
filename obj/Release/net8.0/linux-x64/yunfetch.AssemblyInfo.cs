@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("yunfetch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d7c8e9098ad60f712cd00bcc5201cc10489d4a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("yunfetch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("yunfetch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

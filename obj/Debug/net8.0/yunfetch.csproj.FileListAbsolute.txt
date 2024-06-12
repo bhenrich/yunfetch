@@ -12,3 +12,7 @@
 /home/yunii/Projects/dotnet/yunfetch/obj/Debug/net8.0/yunfetch.pdb
 /home/yunii/Projects/dotnet/yunfetch/obj/Debug/net8.0/yunfetch.genruntimeconfig.cache
 /home/yunii/Projects/dotnet/yunfetch/obj/Debug/net8.0/ref/yunfetch.dll
+/home/yunii/Projects/dotnet/yunfetch/bin/Debug/net8.0/YamlDotNet.dll
+/home/yunii/Projects/dotnet/yunfetch/obj/Debug/net8.0/yunfetch.csproj.AssemblyReference.cache
+/home/yunii/Projects/dotnet/yunfetch/obj/Debug/net8.0/yunfetch.sourcelink.json
+/home/yunii/Projects/dotnet/yunfetch/obj/Debug/net8.0/yunfetch.csproj.CopyComplete

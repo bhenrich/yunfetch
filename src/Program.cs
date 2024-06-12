@@ -1,7 +1,6 @@
 ﻿using System;
 using YunFetch.Services;
 using YunFetch.Helpers;
-using YunFetch.Models;
 
 namespace YunFetch
 {
@@ -9,18 +8,20 @@ namespace YunFetch
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Fetching system information...\n");
+            // TODO this is ugly and unorganised and lacks commandline arguments, i'll make it pretty one day
+            
+            // Console.WriteLine("Fetching system information...\n");
 
-            var fetcher = new FetcherService(new CommandExecutor());
+            var confController = new ConfController();
+            var config = confController.ReadConfig();
+            var fetcher = new FetcherService(new CommandExecutor(), confController);
+            var formatter = new ColorFormatter(confController);
 
             var systemInfo = fetcher.GetSystemInfo();
-
-            string textColor = "\x1b[38;5;252m";        // White text
-            string highlightColor = "\x1b[38;5;219m";   // Pink highlight
-            string accentColor = "\x1b[38;5;117m";      // Cyan accent
-            string resetColor = "\x1b[0m";              // Reset
-
-            var formatter = new ColorFormatter(textColor, highlightColor, accentColor, resetColor);
+            
+            if(config.ClearTermOnRun) Console.Clear();
+            
+            
             formatter.PrintSystemInfo(systemInfo);
         }
     }

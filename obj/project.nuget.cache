@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9QH5DtbhH7rcyiL/5VebqkoM9I0REkYENcELySqfcUmKKWRKF9yUCtJmL0HqNNgBdZXnmdFeB4GhtvdTskn2+w==",
+  "dgSpecHash": "XncB7IPq+PXdrNtcObL1WRY2075bg3d5d+0CJ3Ql87LWSaVnIScNL8vr+qkOLOaTIpTktEDXETvASgUKx6W0FA==",
   "success": true,
   "projectFilePath": "/home/yunii/Projects/dotnet/yunfetch/yunfetch.csproj",
   "expectedPackageFiles": [
     "/home/yunii/.nuget/packages/microsoft.net.illink.tasks/8.0.6/microsoft.net.illink.tasks.8.0.6.nupkg.sha512",
+    "/home/yunii/.nuget/packages/yamldotnet/15.1.6/yamldotnet.15.1.6.nupkg.sha512",
     "/home/yunii/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/8.0.6/microsoft.netcore.app.runtime.linux-x64.8.0.6.nupkg.sha512",
     "/home/yunii/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512",
     "/home/yunii/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/8.0.6/microsoft.aspnetcore.app.runtime.linux-x64.8.0.6.nupkg.sha512",

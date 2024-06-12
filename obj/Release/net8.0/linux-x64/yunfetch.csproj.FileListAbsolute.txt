@@ -195,3 +195,6 @@
 /home/yunii/Projects/dotnet/yunfetch/obj/Release/net8.0/linux-x64/yunfetch.pdb
 /home/yunii/Projects/dotnet/yunfetch/obj/Release/net8.0/linux-x64/yunfetch.genruntimeconfig.cache
 /home/yunii/Projects/dotnet/yunfetch/obj/Release/net8.0/linux-x64/ref/yunfetch.dll
+/home/yunii/Projects/dotnet/yunfetch/obj/Release/net8.0/linux-x64/yunfetch.sourcelink.json
+/home/yunii/Projects/dotnet/yunfetch/bin/Release/net8.0/linux-x64/YamlDotNet.dll
+/home/yunii/Projects/dotnet/yunfetch/obj/Release/net8.0/linux-x64/yunfetch.csproj.AssemblyReference.cache

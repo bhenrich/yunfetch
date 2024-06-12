@@ -10,12 +10,13 @@ namespace YunFetch.Helpers
         private readonly string _accentColor;
         private readonly string _resetColor;
 
-        public ColorFormatter(string textColor, string highlightColor, string accentColor, string resetColor)
+        public ColorFormatter(ConfController confController)
         {
-            _textColor = textColor;
-            _highlightColor = highlightColor;
-            _accentColor = accentColor;
-            _resetColor = resetColor;
+            var config = confController.ReadConfig();
+            _textColor = config.Colors.TextColor;
+            _highlightColor = config.Colors.HighlightColor;
+            _accentColor = config.Colors.AccentColor;
+            _resetColor = config.Colors.ResetColor;
         }
 
         public void PrintSystemInfo(SystemInfo systemInfo)

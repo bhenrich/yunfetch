@@ -43,6 +43,10 @@
               "target": "Package",
               "version": "[8.0.6, )",
               "autoReferenced": true
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[15.1.6, )"
             }
           },
           "imports": [
