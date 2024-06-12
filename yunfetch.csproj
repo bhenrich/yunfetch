@@ -12,4 +12,10 @@
     <PackageReference Include="YamlDotNet" Version="15.1.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="..\..\..\.config\yunfetch\conf.yaml">
+      <Link>yunfetch\conf.yaml</Link>
+    </Content>
+  </ItemGroup>
+
 </Project>
