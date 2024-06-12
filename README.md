@@ -17,3 +17,4 @@ YunFetch is a simple system information fetching tool written in C#. I made this
 
 ## Usage
 Clone the repository: `git clone https://github.com/bhenrich/yunfetch.git`
+Do whatever you want.
