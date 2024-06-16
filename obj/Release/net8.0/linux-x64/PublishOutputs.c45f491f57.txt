@@ -1,2 +1,0 @@
-/home/yunii/Projects/dotnet/yunfetch/bin/Release/net8.0/linux-x64/publish/yunfetch.pdb
-/home/yunii/Projects/dotnet/yunfetch/bin/Release/net8.0/linux-x64/publish/yunfetch
